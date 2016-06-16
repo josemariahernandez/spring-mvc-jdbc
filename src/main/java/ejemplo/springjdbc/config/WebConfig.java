@@ -1,4 +1,4 @@
-package spring.mvc.jdbc.config;
+package ejemplo.springjdbc.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("spring.mvc.jdbc.controller")
+@ComponentScan("ejemplo.springjdbc.controller")
 public class WebConfig extends WebMvcConfigurerAdapter{
 
 	@Bean

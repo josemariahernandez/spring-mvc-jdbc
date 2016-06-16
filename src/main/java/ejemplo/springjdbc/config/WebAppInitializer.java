@@ -1,4 +1,4 @@
-package spring.mvc.jdbc.config;
+package ejemplo.springjdbc.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
